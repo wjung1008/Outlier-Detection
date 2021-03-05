@@ -1,6 +1,13 @@
 # Outlier-Detection
 Surface Crack Outlier Detection using Variation Auto-Encoder (VAE)
 
+[Surface Crack Dataset](https://www.kaggle.com/arunrk7/surface-crack-detection)
+
+[Alibi detect](https://docs.seldon.io/projects/alibi-detect/en/latest/index.html)
+
+[Reference video](https://www.youtube.com/watch?v=RJ4oB6MWTsA&ab_channel=%EB%B9%B5%ED%98%95%EC%9D%98%EA%B0%9C%EB%B0%9C%EB%8F%84%EC%83%81%EA%B5%AD)
+
+
 ## The biggest advantage of using outlier detection is utilizing unbalanced dataset to train the network.
 * By training the model only with normal images without cracks, the network is trained to reconstruct an image without any cracks.
 
@@ -25,12 +32,6 @@ Surface Crack Outlier Detection using Variation Auto-Encoder (VAE)
 
 ![image](https://user-images.githubusercontent.com/60275617/110175192-5ef8d480-7dcf-11eb-89cf-2577276714a3.png)
 #### Figure 5. Visualize the original image and the reconstructed image
-
-[Surface Crack Dataset](https://www.kaggle.com/arunrk7/surface-crack-detection)
-
-[Alibi detect](https://docs.seldon.io/projects/alibi-detect/en/latest/index.html)
-
-[Reference video](https://www.youtube.com/watch?v=RJ4oB6MWTsA&ab_channel=%EB%B9%B5%ED%98%95%EC%9D%98%EA%B0%9C%EB%B0%9C%EB%8F%84%EC%83%81%EA%B5%AD)
 
 
 
